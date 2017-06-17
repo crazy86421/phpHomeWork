@@ -20,7 +20,7 @@ $grade=@$_GET["grade"];
 $email=@$_GET["email"];
 
 
-$mysql= "INSERT INTO HomeWork3 (name,pwd,gender,phone,city,interest,grade,email) VALUES ('$name','$pwd','$gender','$phone','$city','$interest','$grade','$email')";
+$mysql= "INSERT INTO Week8 (name,pwd,gender,phone,city,interest,grade,email) VALUES ('$name','$pwd','$gender','$phone','$city','$interest','$grade','$email')";
 $result=mysqli_query($link,$mysql); 
 $result=mysqli_query($link,"SELECT * FROM HomeWork3" );
 echo "<table border=1>";
