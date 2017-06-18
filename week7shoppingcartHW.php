@@ -2,7 +2,7 @@
 $total=0;
 while( list($arr,$value) = each($_COOKIE)){
 	if(isset($_COOKIE[$arr])&&is_array($_COOKIE[$arr])){
-	echo "<a href='deleteHW.php?id=$arr'>刪除</a>";
+	echo "<a href='week7deleteHW.php?id=$arr'>刪除</a>";
 	while(list($name,$value) = each($_COOKIE[$arr])){
 		if($name=="name"){
 			echo $value." ";
@@ -22,5 +22,5 @@ while( list($arr,$value) = each($_COOKIE)){
 	}
 }
 	echo "總價:",$total,"<br>";
-	echo "<a href='catalogHW.php'>商品目錄</a>";
+	echo "<a href='week7catalogHW.php'>商品目錄</a>";
 ?>
