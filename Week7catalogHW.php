@@ -18,7 +18,7 @@ if(isset($_POST["Item"])){
 			$_SESSION["price"]=21000;
 		break;
 	}
-	header("Location: week7savecartHW.php");
+	header("Location: Week7savecartHW.php");
 }
 echo '<form action="" method="post">
 	選擇商品:
