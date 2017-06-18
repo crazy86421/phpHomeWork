@@ -5,5 +5,5 @@ if (isset($_GET["id"])){
 		setcookie($id."[".$name."]","",time()-3600);
 	}
 }
-header("Location: week7shoppingcartHW2.php");
+header("Location: Week7shoppingcartHW2.php");
 ?>
